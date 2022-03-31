@@ -24,7 +24,7 @@
             {% if user is defined %}
                 <a class="nav-item nav-link active" href="/">Home<span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="/new/order">Add My Favorite Pizza</a>  
-                <a class="nav-item nav-link" href=/personal/{{user.id}}">Edit My Account (My List)</a>                  
+                <a class="nav-item nav-link" href="/personal/{{user.id}}">Edit My Account</a>
             {% else %}
             <a class="nav-item nav-link active" href="/">Home<span class="sr-only">(current)</span></a>
             {% endif %}
